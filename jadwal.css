@@ -1,0 +1,128 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  /* Styling navbar */
+  .navbar {
+    background-color: #088CB2; /* Warna hijau */
+    display: flex;
+    justify-content: space-between; /* Pisahkan kiri dan kanan */
+    align-items: center;
+    padding: 5px 0;
+  }
+  
+  .navbar .logo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 2rem;
+  
+  }
+  .navbar .logo .logo-navbar img{
+    width: 50px;
+    position: relative;
+    top: 5px;
+  }
+  .logo .title-logo{
+    position: relative;
+    right: 10px;
+  }
+  
+  .navbar .navbar-brand {
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar-menu{
+    position: relative;
+    right: 5rem;
+  }
+  
+  .navbar-menu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .navbar-menu span{
+    color: rgb(255, 225, 0);
+  }
+  
+
+  /* Center the Jadwal Section */
+.jadwal-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  color: #088CB2;
+}
+
+/* Center the Carousel Container */
+.carousel-container {
+  overflow: hidden;
+  width: 90%; /* Adjust this to your desired width */
+  margin: 0 auto; /* Center the container */
+}
+
+.carousel {
+  display: flex;
+  gap: 10px;
+  cursor: grab;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.carousel-item {
+  min-width: 250px;
+  background-color: white;
+  border-radius: 0px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 18px;
+  top: 11rem;
+}
+
+.carousel-item p {
+  padding: 10px 0;
+  color: #7b2929;
+}
+
+/* Hover effect */
+.carousel-item:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Remove scrollbar */
+.carousel::-webkit-scrollbar {
+  display: none;
+  
+}
