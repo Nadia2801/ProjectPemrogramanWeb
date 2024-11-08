@@ -1,95 +1,95 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;  /* Menetapkan jenis huruf untuk seluruh halaman */
 }
 /* Styling navbar */
 .navbar {
-  background-color:  #088CB2; /* Warna hijau */
-  display: flex;
-  justify-content: space-between; /* Pisahkan kiri dan kanan */
-  align-items: center;
-  padding: 5px 0;
+  background-color:  #088CB2;  /* Menetapkan warna latar belakang navbar ke biru kehijauan */
+  display: flex;  /* Menggunakan layout flexbox untuk navbar */
+  justify-content: space-between;/* Menyebarkan elemen kiri dan kanan */
+  align-items: center;  /* Menyusun elemen secara vertikal di tengah navbar */
+  padding: 5px 0; /* Memberikan padding vertikal pada navbar */
 }
 
 .navbar .logo{
-  position: relative;
-  display: flex;
-  align-items: center;
-  left: 2rem;
+  position: relative; /* Menetapkan posisi relatif untuk penyesuaian */
+  display: flex; /* Menggunakan flexbox untuk menyusun logo dan judul */
+  align-items: center; /* Menyusun elemen secara vertikal di tengah */
+  left: 2rem; /* Menggeser bagian logo sedikit ke kanan */
 
 }
 .navbar .logo .logo-navbar img{
-  width: 50px;
-  position: relative;
-  top: 5px;
+  width: 50px; /* Menetapkan lebar gambar logo */
+  position: relative; /* Menggunakan posisi relatif untuk penyesuaian */
+  top: 5px; /* Menggeser logo sedikit ke atas */
 }
 .logo .title-logo{
-  position: relative;
-  right: 10px;
+  position: relative; /* Menetapkan posisi relatif untuk penyesuaian */
+  right: 10px;  /* Menggeser judul sedikit ke kiri */
 }
 
 .navbar .navbar-brand {
-  font-size: 20px;
-  color: white;
-  padding-left: 20px;
-  font-weight: bold;
+  font-size: 20px; /* Menetapkan ukuran font untuk teks merek */
+  color: white; /* Menetapkan warna font untuk teks merek */
+  padding-left: 20px; /* Memberikan padding kiri pada teks merek */
+  font-weight: bold;  /* Membuat teks merek menjadi tebal */
 }
 
 .navbar-menu{
-  position: relative;
-  right: 5rem;
+  position: relative; /* Menetapkan posisi relatif */
+  right: 5rem; /* Menggeser menu navbar sedikit ke kiri */
 }
 
 .navbar-menu a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-  font-size: 14px;
+  display: inline-block; /* Menetapkan link menjadi inline-block agar dapat diatur spasi */
+  color: white; /* Menetapkan warna link menjadi putih */
+  text-align: center; /* Menyusun teks di tengah setiap link */
+  padding: 14px 20px; /* Memberikan padding pada setiap link */
+  text-decoration: none; /* Menghapus garis bawah pada link */
+  font-size: 14px; /* Menetapkan ukuran font untuk link */
 }
 
 .navbar-menu span{
-  color: rgb(255, 225, 0);
+  color: rgb(255, 225, 0);  /* Menetapkan warna untuk teks tertentu di menu navbar */
 }
 
 .kontak-section {
-  background-color: #ffffff; /* Warna background biru */
-  padding: 5px;
+  background-color: #ffffff; /* Menetapkan warna latar belakang untuk bagian kontak */
+  padding: 5px; /* Memberikan padding di sekitar bagian kontak */
   
 }
 
 .kontak-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
+  display: flex; /* Menggunakan layout flexbox */
+  justify-content: space-between; /* Menyebarkan ruang antara elemen dalam kontainer */
+  align-items: center; /* Menyusun elemen secara vertikal di tengah */
+  max-width: 1200px; /* Menetapkan lebar maksimum untuk kontainer */
+  margin: 0 auto; /* Memusatkan kontainer secara horizontal */
   
 }
 
 .kontak-map {
-  flex: 1;
-  margin-right: -7rem;
+  flex: 1; /* Menetapkan lebar fleksibel untuk bagian peta */
+  margin-right: -7rem; /* Menyesuaikan jarak ke kanan */
 
 }
 
 .kontak-info {
-  flex: 1;
-  color: rgb(134, 57, 57);
-  margin-bottom: 40px;
+  flex: 1; /* Menetapkan lebar fleksibel untuk bagian informasi kontak */
+  color: rgb(134, 57, 57);  /* Menetapkan warna teks untuk informasi kontak */
+  margin-bottom: 40px;  /* Memberikan margin bawah */
 
 }
 
 .kontak-info h2 {
-  font-size: 30px;
+  font-size: 30px; /* Menetapkan ukuran font untuk judul informasi kontak */
  
 }
 
 .kontak-info p {
-  font-size: 18px;
-  margin: 10px 0;
+  font-size: 18px; /* Menetapkan ukuran font untuk paragraf informasi kontak */
+  margin: 10px 0; /* Memberikan margin vertikal di sekitar paragraf */
 }
 
 .kontak-info strong {
-  font-weight: bold;
+  font-weight: bold; /* Membuat teks menjadi tebal dalam informasi kontak */
 }
