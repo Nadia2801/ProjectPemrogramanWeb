@@ -1,0 +1,95 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Styling navbar */
+.navbar {
+  background-color:  #088CB2; /* Warna hijau */
+  display: flex;
+  justify-content: space-between; /* Pisahkan kiri dan kanan */
+  align-items: center;
+  padding: 5px 0;
+}
+
+.navbar .logo{
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 2rem;
+
+}
+.navbar .logo .logo-navbar img{
+  width: 50px;
+  position: relative;
+  top: 5px;
+}
+.logo .title-logo{
+  position: relative;
+  right: 10px;
+}
+
+.navbar .navbar-brand {
+  font-size: 20px;
+  color: white;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.navbar-menu{
+  position: relative;
+  right: 5rem;
+}
+
+.navbar-menu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar-menu span{
+  color: rgb(255, 225, 0);
+}
+
+.kontak-section {
+  background-color: #ffffff; /* Warna background biru */
+  padding: 5px;
+  
+}
+
+.kontak-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.kontak-map {
+  flex: 1;
+  margin-right: -7rem;
+
+}
+
+.kontak-info {
+  flex: 1;
+  color: rgb(134, 57, 57);
+  margin-bottom: 40px;
+
+}
+
+.kontak-info h2 {
+  font-size: 30px;
+ 
+}
+
+.kontak-info p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.kontak-info strong {
+  font-weight: bold;
+}
